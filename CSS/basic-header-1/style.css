@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: rgb(255, 212, 157);
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  margin: 0.5em;
+}
+
+.leftLinks ul, .rightLinks ul{
+    display: flex;
+    gap: 20px;
+}
+
+.leftLinks ul li, .rightLinks ul li{
+  background-color: white;
+  padding: 0.2em;
+  list-style: none;
+}
+
+.leftLinks ul li a, .rightLinks ul li a{
+    text-decoration: none;
+}
+
+.logo{
+    background-color: white;
+    padding: 0.5em 0.8em;
+    color: red;
+    font-weight: bold;
+}
